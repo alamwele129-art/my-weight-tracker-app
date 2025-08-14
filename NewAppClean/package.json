@@ -1,7 +1,7 @@
 {
   "name": "advancedweighttracker",
   "version": "1.0.0",
-  "main": "advancedweighttracker",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
@@ -67,7 +67,8 @@
     "react-native-view-shot": "3.8.0",
     "react-native-web": "~0.19.10",
     "react-native-wheel-picker-expo": "*",
-    "typescript": "~5.3.3"
+    "typescript": "~5.3.3",
+    "expo-router": "~3.5.24"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
