@@ -24,7 +24,8 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.awt.advancedweighttracker"
+      "package": "com.awt.advancedweighttracker",
+      "googleServicesFile": "./google-services.json"
     },
     "plugins": [
       "expo-router"
