@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "New Weight Tracker",
+    "slug": "new-weight-tracker",
+    "version": "1.0.0",
+    "scheme": "new-weight-tracker",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.awt.advancedweighttracker"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.awt.advancedweighttracker"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "abbc90f3-f5f1-45d7-8e70-f5343f276a5d"
+      }
+    }
+  }
+}
