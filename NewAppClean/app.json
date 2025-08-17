@@ -3,7 +3,7 @@
     "name": "Advanced Weight Tracker",
     "slug": "advanced-weight-tracker",
     "version": "1.0.0",
-    "scheme": "Advanced-weight-tracker",
+    "scheme": "advanced-weight-tracker",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -34,8 +34,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "abbc90f3-f5f1-45d7-8e70-f5343f276a5d"
+        "projectId": "010efa50-dfdb-4b20-9c43-cf290e406ff3"
       }
-    }
+    },
+    "owner": "ghghgfh"
   }
 }
