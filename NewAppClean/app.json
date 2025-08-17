@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "New Weight Tracker",
-    "slug": "new-weight-tracker",
+    "name": "Advanced Weight Tracker",
+    "slug": "advanced-weight-tracker",
     "version": "1.0.0",
-    "scheme": "new-weight-tracker",
+    "scheme": "Advanced-weight-tracker",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
