@@ -44,7 +44,7 @@ if (getRNMinorVersion() >= 75) {
   }
 }
 
-rootProject.name = 'Advancedweighttracker'
+rootProject.name = 'Calora Ai'
 
 dependencyResolutionManagement {
   versionCatalogs {

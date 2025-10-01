@@ -1,43 +1,34 @@
 {
   "expo": {
-    "name": "Advancedweighttracker",
-    "slug": "advanced-weight-tracker",
-    "scheme": "advancedweighttracker",
+    "name": "Calora Ai",
+    "slug": "calora-ai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/Advancedweighttracker.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.awt.advancedweighttracker"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
       },
-      "package": "com.awt.advancedweighttracker",
-      "config": {
-        "googleMobileAdsAppId": "ca-app-pub-8833281523608204~4805371943"
-      }
+      "edgeToEdgeEnabled": true,
+      "package": "com.xorega.caloraai"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
     },
-    "plugins": [
-      "react-native-google-mobile-ads"
-    ],
     "extra": {
       "eas": {
-        "projectId": "010efa50-dfdb-4b20-9c43-cf290e406ff3"
+        "projectId": "8298c203-360a-4f65-8bef-8cacefba5b56"
       }
     }
   }
