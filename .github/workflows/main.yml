@@ -22,6 +22,7 @@ jobs:
         with:
           java-version: '11'
           distribution: 'temurin'
+          cache: 'gradle'
 
       # 3. بيجهز Node.js
       - name: Set up Node.js
