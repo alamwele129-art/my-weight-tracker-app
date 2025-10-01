@@ -15,7 +15,7 @@ jobs:
     steps:
       # 1. بينزل الكود بتاعك على السيرفر المؤقت
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # 2. بيجهز لغة جافا (ضرورية للأندرويد)
       - name: Set up JDK 11
@@ -46,7 +46,7 @@ jobs:
 
       # 7. بيرفعلك ملف الـ APK اللي طلع عشان تعرف تحمله
       - name: Upload APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@4
         with:
           name: app-release
           path: android/app/build/outputs/apk/release/app-release.apk
