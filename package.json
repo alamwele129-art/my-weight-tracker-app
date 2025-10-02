@@ -1,6 +1,6 @@
 {
   "license": "0BSD",
-  "main": "Splash.js",
+  "main": "App.js",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
@@ -48,6 +48,7 @@
   },
   "private": true,
   "devDependencies": {
+    "@react-native-community/cli": "^20.0.2",
     "@types/react": "~19.1.10",
     "typescript": "~5.9.2"
   },
