@@ -11,7 +11,7 @@ import Svg, { Circle, Path } from 'react-native-svg';
 import { Pedometer } from 'expo-sensors';
 import * as Device from 'expo-device';
 import * as Notifications from 'expo-notifications';
-// --- تمت إضافة هذه المكتبات لتعمل الإشعارات في الخلفية ---
+// --- تمت إضافة هذه المكتبات لتعمل الإشعارات في الخلفية ---ققق
 import * as TaskManager from 'expo-task-manager';
 import * as BackgroundFetch from 'expo-background-fetch';
 

@@ -3,6 +3,18 @@
   "hostRequirements": {
     "cpus": 4
   },
+
+  // ==========================================================
+  // ===== ✅✅✅ الجزء الأساسي اللي تم إضافته ✅✅✅ =====
+  // ==========================================================
+  "features": {
+    "ghcr.io/devcontainers/features/android-sdk:2": {
+      "version": "latest",
+      "platformTools": true, // <-- هذا الخيار يثبت أداة adb
+      "buildTools": true     // <-- هذا الخيار مهم لعملية بناء التطبيق
+    }
+  },
+
   "waitFor": "onCreateCommand",
   "updateContentCommand": "npm install",
   "postCreateCommand": "",
@@ -12,15 +24,23 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "src/App.jsx"
+        "App.js" // تم التعديل من jsx إلى js ليتناسب مع مشروعك
       ]
     }
   },
+
+  // ==========================================================
+  // ===== ✅ تحسين بسيط: إضافة منفذ React Native Metro ✅ =====
+  // ==========================================================
   "portsAttributes": {
     "3000": {
       "label": "Application",
       "onAutoForward": "openPreview"
+    },
+    "8081": {
+      "label": "React Native Metro",
+      "onAutoForward": "silent"
     }
   },
-  "forwardPorts": [3000]
+  "forwardPorts": [3000, 8081]
 }
